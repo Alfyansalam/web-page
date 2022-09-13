@@ -1,0 +1,22 @@
+
+table,td,th{
+    margin-left: auto; margin-right: auto;
+    border: 1px solid white;
+    color:black;
+    text-align: left;
+    
+    
+}
+h1,h2{text-align: center;color:black;font-weight: bolder;}
+h3,li{color: black;}
+blockquote{text-align: center;}
+td{
+    width: 180px;
+}
+
+p{
+    text-align: center;
+}
+.boxed {
+    border: 10px solid green ;
+  }
