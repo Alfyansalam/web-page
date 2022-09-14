@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+</head>
+<p id="demo"></p>
+
+<body>
+    <script>
+        let text = '{ "employees": [ ' +
+            '{  "id": 1,  "first_name": "Sebastian",  "last_name": "Eschweiler",  "email": "sebastian@javatpoint.com" },' +
+            '{  "id": 2,   "first_name": "Steve",  "last_name": "Palmer",   "email": "steve@javatpoint.com"    },' +
+            '{  "id": 3,  "first_name": "Ann",   "last_name": "Smith",   "email": "ann@javatpoint.com"  }  ]   }';
+        const obj = JSON.parse(text);
+        document.getElementById("demo").innerHTML = obj.employees[1].first_name + " " + obj.employees[1].last_name;
+    </script>
+</body>
+
+</html>
