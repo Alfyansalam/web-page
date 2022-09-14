@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <p id="demo"></p>
+<p id="demo1"></p>
 
 <body>
     <script>
@@ -14,7 +15,8 @@
             '{  "id": 2,   "first_name": "Steve",  "last_name": "Palmer",   "email": "steve@javatpoint.com"    },' +
             '{  "id": 3,  "first_name": "Ann",   "last_name": "Smith",   "email": "ann@javatpoint.com"  }  ]   }';
         const obj = JSON.parse(text);
-        document.getElementById("demo").innerHTML = obj.employees[1].first_name + " " + obj.employees[1].last_name;
+        document.getElementById("demo").innerHTML = obj.employees[0].first_name + " " + obj.employees[0].last_name;
+        document.getElementById("demo1").innerHTML = obj.employees[2].first_name + " " + obj.employees[2].last_name;
     </script>
 </body>
 
