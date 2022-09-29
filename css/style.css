@@ -1,22 +1,54 @@
-
-table,td,th{
-    margin-left: auto; margin-right: auto;
+table,
+td,
+th {
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid white;
-    color:black;
+    color: black;
     text-align: left;
-    
-    
 }
-h1,h2{text-align: center;color:black;font-weight: bolder;}
-h3,li{color: black;}
-blockquote{text-align: center;}
-td{
+
+h1,
+h2 {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+h3,
+li {
+    color: black;
+}
+
+blockquote {
+    text-align: center;
+}
+
+td {
     width: 180px;
 }
 
-p{
+p {
     text-align: center;
 }
+
 .boxed {
-    border: 10px solid green ;
-  }
+    border: 10px solid green;
+}
+
+label {
+    font-weight: bolder;
+}
+
+a:hover {
+    color: brown;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: aliceblue;
+}
+
+.nav-item:hover {
+    transform: scale(1.2);
+}
